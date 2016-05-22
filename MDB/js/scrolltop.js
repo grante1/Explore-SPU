@@ -16,4 +16,19 @@ $(document).ready(function(){
             }, 1500);
         }
   });
+
+  $(".btn-circle").click(function(){
+      var name = $(this).attr("name");
+      if(name === 'learnMore')
+      {
+          $('html, body').animate({
+              scrollTop: $('#in-seattle').offset().top-90
+          }, 1500);
+      }
+});
+
+
+
+
+
 });
