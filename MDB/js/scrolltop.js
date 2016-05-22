@@ -2,9 +2,13 @@
 
 $(document).ready(function(){
     $(".nav-link").click(function(){
-        console.log(10);
-    $('#card-section').animate({
-        scrollTop: ($('#' + $(this).attr("name")).offset().top - 10)
-    }, 2000);
+        console.log($(this).attr("name"));
+        var name = $(this).attr("name");
+        if(name === 'inseattle')
+        {
+            $('html, body').animate({
+                scrollTop: 670
+            }, 1000);
+        }
   });
 });
