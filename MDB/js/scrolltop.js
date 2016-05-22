@@ -7,13 +7,13 @@ $(document).ready(function(){
         {
             $('html, body').animate({
                 scrollTop: $('#in-seattle').offset().top-90
-            }, 1000);
+            }, 1500);
         }
         else if(name === 'oncampus')
         {
             $('html, body').animate({
                 scrollTop: $('#on-campus').offset().top-90
-            }, 1000);
+            }, 1500);
         }
   });
 });
