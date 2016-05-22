@@ -1,552 +1,423 @@
 <!DOCTYPE html>
 <html lang="en">
 
-    <head>
+<head>
 
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
 
-        <title>Material Design Bootstrap</title>
+    <title>Explore SPU</title>
 
-        <!-- Font Awesome -->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css">
 
-        <!-- Bootstrap core CSS -->
-        <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
 
-        <!-- Material Design Bootstrap -->
-        <link href="css/mdb.min.css" rel="stylesheet">
+    <!-- Material Design Bootstrap -->
+    <link href="css/mdb.min.css" rel="stylesheet">
 
-        <!-- Your custom styles (optional) -->
-        <link href="css/style.css" rel="stylesheet">
+    <!-- Your custom styles (optional) -->
+    <link href="css/style.css" rel="stylesheet">
 
-    </head>
+</head>
 
-    <body>
-        
-        <!--Navbar-->
-        <nav class="navbar navbar-dark navbar-fixed-top scrolling-navbar">
+<body>
 
-            <!-- Collapse button-->
-            <button class="navbar-toggler hidden-sm-up" type="button" data-toggle="collapse" data-target="#collapseEx2">
-                <i class="fa fa-bars"></i>
-            </button>
+  <!--Navbar-->
+  <nav class="navbar navbar-dark navbar-fixed-top scrolling-navbar">
 
-            <div class="container">
+      <!-- Collapse button-->
+      <button class="navbar-toggler hidden-sm-up" type="button" data-toggle="collapse" data-target="#collapseEx2">
+          <i class="fa fa-bars"></i>
+      </button>
 
-                <!--Collapse content-->
-                <div class="collapse navbar-toggleable-xs" id="collapseEx2">
-                    <!--Navbar Brand-->
-                    <a class="navbar-brand" href="#">Explore SPU</a>
-                    <!--Links-->
-                    <ul class="nav navbar-nav">
-                        <li class="nav-item active">
-                            <a class="nav-link" name="home" href="#">Home <span class="sr-only">(current)</span></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" name="inseattle" href="#">In Seattle</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" name="oncampus" href="#">On Campus</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" name="about" href="#">About</a>
-                        </li>
-                    </ul>
+      <div class="container">
+
+          <!--Collapse content-->
+          <div class="collapse navbar-toggleable-xs" id="collapseEx2">
+              <!--Navbar Brand-->
+              <a class="navbar-brand" href="#">Explore SPU</a>
+              <!--Links-->
+              <ul class="nav navbar-nav smooth-scroll">
+                  <li class="nav-item active">
+                      <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="#Seattle-card-section">In Seattle</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="#Campus-card-section">On Campus</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="#">About</a>
+                  </li>
+              </ul>
+          </div>
+          <!--/.Collapse content-->
+
+      </div>
+
+  </nav>
+  <!--/.Navbar-->
+
+  <!--Mask-->
+  <div class="view hm-black-strong"> <!-- wrapper for bg image to add mask -->
+      <!--Intro content-->
+      <div class="full-bg-img flex-center"> <!-- covers image and puts conetent in the middle of the screen -->
+          <ul>
+              <li>
+                  <h1 class="h1-responsive wow fadeInDown" data-wow-delay="0.2s">Explore Seattle Pacific University</h1></li>
+              <li>
+                  <p class="wow fadeInDown" data-wow-delay="0.6s">The best place to find out about attractions, activites, and events in Seattle</p>
+              </li>
+              <li>
+                  <a target="_blank" href="http://mdbootstrap.com/material-design-for-bootstrap/" class="btn btn-default btn-lg">Learn more</a>
+              </li>
+          </ul>
+      </div>
+      <!--/Intro content-->
+  </div>
+  <!--/.Mask-->
+
+  <!-- Main container-->
+<div class="container">
+
+    <div class="divider-new" id="in-seattle">
+        <h2 class="h2-responsive">In Seattle</h2>
+    </div>
+
+    <!--Section: In Seattle -->
+    <section id="Seattle-card-section">
+
+        <div class="row wow fadeInLeft" data-wow-offset="5">
+
+            <!--First columnn-->
+            <div class="col-md-3">
+                <!--Card-->
+                <div class="card hoverable">
+
+                    <!--Card image-->
+                    <div class="view overlay hm-white-slight">
+                        <img src="spaceNeedle.jpg" class="img-fluid" alt="">
+                        <a>
+                            <div class="mask"></div>
+                        </a>
+                    </div>
+                    <!--/.Card image-->
+
+                    <!--Card content-->
+                    <div class="card-block text-xs-center">
+                        <!--Title-->
+                        <h4 class="card-title">Space Needle</h4>
+                        <hr>
+                        <!--Text-->
+                        <p class="card-text">The Space Needle is an observation tower in Seattle, Washington, a landmark of the Pacific Northwest, and an icon of Seattle.</p>
+                    </div>
+                    <!--/.Card content-->
+
                 </div>
-                <!--/.Collapse content-->
-
+                <!--/.Card-->
             </div>
+            <!--First columnn-->
 
-        </nav>
-        <!--/.Navbar-->
+            <!--Second columnn-->
+            <div class="col-md-3">
+                <!--Card-->
+                <div class="card hoverable">
 
-        <!--Mask-->
-        <div class="view hm-black-strong"> <!-- wrapper for bg image to add mask -->
-            <!--Intro content-->
-            <div class="full-bg-img flex-center"> <!-- covers image and puts conetent in the middle of the screen -->
-                <ul>
-                    <li>
-                        <h1 class="h1-responsive">Explore Seattle Pacific University</h1></li>
-                    <li>
-                        <p>The most powerful and free UI KIT for Bootstrap</p>
-                    </li>
-                    <li>
-                        <a target="_blank" href="http://mdbootstrap.com/getting-started/" class="btn btn-primary btn-lg">Sign up!</a>
-                        <a target="_blank" href="http://mdbootstrap.com/material-design-for-bootstrap/" class="btn btn-default btn-lg">Learn more</a>
-                    </li>
-                </ul>
+                    <!--Card image-->
+                    <div class="view overlay hm-white-slight">
+                        <img src="FreemontTroll.jpg" class="img-fluid" alt="">
+                        <a>
+                            <div class="mask"></div>
+                        </a>
+                    </div>
+                    <!--/.Card image-->
+
+                    <!--Card content-->
+                    <div class="card-block text-xs-center">
+                        <!--Title-->
+                        <h4 class="card-title">Freemont Troll</h4>
+                        <hr>
+                        <!--Text-->
+                        <p class="card-text">The Fremont Troll is a public sculpture in the Fremont neighborhood of Seattle, located under the George Washington Memorial Bridge.</br></p>
+                    </div>
+                    <!--/.Card content-->
+
+                </div>
+                <!--/.Card-->
             </div>
-            <!--/Intro content-->
+            <!--Second columnn-->
+
+            <!--Third columnn-->
+            <div class="col-md-3">
+                <!--Card-->
+                <div class="card hoverable">
+
+                    <!--Card image-->
+                    <div class="view overlay hm-white-slight">
+                        <img src="pikePlaceMarket.jpg" class="img-fluid" alt="">
+                        <a>
+                            <div class="mask"></div>
+                        </a>
+                    </div>
+                    <!--/.Card image-->
+
+                    <!--Card content-->
+                    <div class="card-block text-xs-center">
+                        <!--Title-->
+                        <h4 class="card-title">Pike Place Market</h4>
+                        <hr>
+                        <!--Text-->
+                        <p class="card-text">Pike Place Market is a public market overlooking the Elliott Bay waterfront in Seattle and is one of the oldest farmers' markets in the US.</p>
+                    </div>
+                    <!--/.Card content-->
+
+                </div>
+                <!--/.Card-->
+            </div>
+            <!--Third columnn-->
+
+            <!--Fourth columnn-->
+            <div class="col-md-3">
+                <!--Card-->
+                <div class="card hoverable">
+
+                    <!--Card image-->
+                    <div class="view overlay hm-white-slight">
+                        <img src="gas-works-park.jpg" class="img-fluid" alt="">
+                        <a>
+                            <div class="mask"></div>
+                        </a>
+                    </div>
+                    <!--/.Card image-->
+
+                    <!--Card content-->
+                    <div class="card-block text-xs-center">
+                        <!--Title-->
+                        <h4 class="card-title">Gas Works Park</h4>
+                        <hr>
+                        <!--Text-->
+                        <p class="card-text">Gas Works Park in Seattle, Washington is a 19.1-acre public park on the site of the former Seattle Gas Light Company gasification plant.</p>
+                    </div>
+                    <!--/.Card content-->
+
+                </div>
+                <!--/.Card-->
+            </div>
+            <!--/Fourth columnn-->
         </div>
-        <!--/.Mask-->
-
-        <!-- Main container-->
-        <div class="container main-content">
-
-            <div class="divider-new">
-                <h2 class="h2-responsive">In Seattle</h2>
-            </div>
-
-            <!--Section: In Seattle -->
-            <section id="card-section in-seattle" >
-
-                <div class="row">
-
-                    <!--First columnn-->
-                    <div class="col-md-3">
-                        <!--Card-->
-                        <div class="card hoverable">
-
-                            <!--Card image-->
-                            <div class="view overlay hm-white-slight">
-                                <img src="img/locations/spaceNeedle.jpg" class="img-fluid" alt="">
-                                <a>
-                                    <div class="mask"></div>
-                                </a>
-                            </div>
-                            <!--/.Card image-->
-
-                            <!--Card content-->
-                            <div class="card-block text-xs-center">
-                                <!--Title-->
-                                <h4 class="card-title">Space Needle</h4>
-                                <hr>
-                                <!--Text-->
-                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident fuga animi architecto dolores dicta cum quo velit.</p>
-                            </div>
-                            <!--/.Card content-->
-
-                        </div>
-                        <!--/.Card-->
-                    </div>
-                    <!--First columnn-->
-
-                    <!--Second columnn-->
-                    <div class="col-md-3">
-                        <!--Card-->
-                        <div class="card hoverable">
-
-                            <!--Card image-->
-                            <div class="view overlay hm-white-slight">
-                                <img src="img/locations/FreemontTroll.jpg" class="img-fluid" alt="">
-                                <a>
-                                    <div class="mask"></div>
-                                </a>
-                            </div>
-                            <!--/.Card image-->
-
-                            <!--Card content-->
-                            <div class="card-block text-xs-center">
-                                <!--Title-->
-                                <h4 class="card-title">Freemont Troll</h4>
-                                <hr>
-                                <!--Text-->
-                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident fuga animi architecto dolores dicta cum quo velit.</p>
-                            </div>
-                            <!--/.Card content-->
-
-                        </div>
-                        <!--/.Card-->
-                    </div>
-                    <!--Second columnn-->
-
-                    <!--Third columnn-->
-                    <div class="col-md-3">
-                        <!--Card-->
-                        <div class="card hoverable">
-
-                            <!--Card image-->
-                            <div class="view overlay hm-white-slight">
-                                <img src="img/locations/pikePlaceMarket.jpg" class="img-fluid" alt="">
-                                <a>
-                                    <div class="mask"></div>
-                                </a>
-                            </div>
-                            <!--/.Card image-->
-
-                            <!--Card content-->
-                            <div class="card-block text-xs-center">
-                                <!--Title-->
-                                <h4 class="card-title">Pike Place Market</h4>
-                                <hr>
-                                <!--Text-->
-                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident fuga animi architecto dolores dicta cum quo velit.</p>
-                            </div>
-                            <!--/.Card content-->
-
-                        </div>
-                        <!--/.Card-->
-                    </div>
-                    <!--Third columnn-->
-
-                    <!--Fourth columnn-->
-                    <div class="col-md-3">
-                        <!--Card-->
-                        <div class="card hoverable">
-
-                            <!--Card image-->
-                            <div class="view overlay hm-white-slight">
-                                <img src="img/locations/gas-works-park.jpg" class="img-fluid" alt="">
-                                <a>
-                                    <div class="mask"></div>
-                                </a>
-                            </div>
-                            <!--/.Card image-->
-
-                            <!--Card content-->
-                            <div class="card-block text-xs-center">
-                                <!--Title-->
-                                <h4 class="card-title">Gas Works Park</h4>
-                                <hr>
-                                <!--Text-->
-                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident fuga animi architecto dolores dicta cum quo velit.</p>
-                            </div>
-                            <!--/.Card content-->
-
-                        </div>
-                        <!--/.Card-->
-                    </div>
-                    <!--/Fourth columnn-->
-                </div>
-                <div class = "flex-center">
-                    <a target="_blank" href="http://mdbootstrap.com/getting-started/" class="btn btn-primary btn-lg">View More!</a>
-                </div>
-
-            </section>
-            <!--/Section: In-Seattle-->
-
-            <div class="divider-new">
-                <h2 class="h2-responsive">On Campus</h2>
-            </div>
-
-            <!--Section: On-Campus -->
-            <section id="card-section oncampus">
-
-                <div class="row">
-
-                    <!--First columnn-->
-                    <div class="col-md-3">
-                        <!--Card-->
-                        <div class="card hoverable">
-
-                            <!--Card image-->
-                            <div class="view overlay hm-white-slight">
-                                <img src="http://mdbootstrap.com/images/regular/city/img%20(2).jpg" class="img-fluid" alt="">
-                                <a>
-                                    <div class="mask"></div>
-                                </a>
-                            </div>
-                            <!--/.Card image-->
-
-                            <!--Card content-->
-                            <div class="card-block text-xs-center">
-                                <!--Title-->
-                                <h4 class="card-title">Card title</h4>
-                                <hr>
-                                <!--Text-->
-                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident fuga animi architecto dolores dicta cum quo velit.</p>
-                            </div>
-                            <!--/.Card content-->
-
-                        </div>
-                        <!--/.Card-->
-                    </div>
-                    <!--First columnn-->
-
-                    <!--Second columnn-->
-                    <div class="col-md-3">
-                        <!--Card-->
-                        <div class="card hoverable">
-
-                            <!--Card image-->
-                            <div class="view overlay hm-white-slight">
-                                <img src="http://mdbootstrap.com/images/regular/city/img%20(3).jpg" class="img-fluid" alt="">
-                                <a>
-                                    <div class="mask"></div>
-                                </a>
-                            </div>
-                            <!--/.Card image-->
-
-                            <!--Card content-->
-                            <div class="card-block text-xs-center">
-                                <!--Title-->
-                                <h4 class="card-title">Card title</h4>
-                                <hr>
-                                <!--Text-->
-                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident fuga animi architecto dolores dicta cum quo velit.</p>
-                            </div>
-                            <!--/.Card content-->
-
-                        </div>
-                        <!--/.Card-->
-                    </div>
-                    <!--Second columnn-->
-
-                    <!--Third columnn-->
-                    <div class="col-md-3">
-                        <!--Card-->
-                        <div class="card hoverable">
-
-                            <!--Card image-->
-                            <div class="view overlay hm-white-slight">
-                                <img src="http://mdbootstrap.com/images/regular/city/img%20(4).jpg" class="img-fluid" alt="">
-                                <a>
-                                    <div class="mask"></div>
-                                </a>
-                            </div>
-                            <!--/.Card image-->
-
-                            <!--Card content-->
-                            <div class="card-block text-xs-center">
-                                <!--Title-->
-                                <h4 class="card-title">Card title</h4>
-                                <hr>
-                                <!--Text-->
-                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident fuga animi architecto dolores dicta cum quo velit.</p>
-                            </div>
-                            <!--/.Card content-->
-
-                        </div>
-                        <!--/.Card-->
-                    </div>
-                    <!--Third columnn-->
-
-                    <!--Fourth columnn-->
-                    <div class="col-md-3">
-                        <!--Card-->
-                        <div class="card hoverable">
-
-                            <!--Card image-->
-                            <div class="view overlay hm-white-slight">
-                                <img src="http://mdbootstrap.com/images/regular/city/img%20(8).jpg" class="img-fluid" alt="">
-                                <a>
-                                    <div class="mask"></div>
-                                </a>
-                            </div>
-                            <!--/.Card image-->
-
-                            <!--Card content-->
-                            <div class="card-block text-xs-center">
-                                <!--Title-->
-                                <h4 class="card-title">Card title</h4>
-                                <hr>
-                                <!--Text-->
-                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident fuga animi architecto dolores dicta cum quo velit.</p>
-                            </div>
-                            <!--/.Card content-->
-
-                        </div>
-                        <!--/.Card-->
-                    </div>
-                    <!--Fourth columnn-->
-                </div>
-                <div class = "flex-center">
-                    <a target="_blank" href="http://mdbootstrap.com/getting-started/" class="btn btn-primary btn-lg">View More!</a>
-                </div>
-
-            </section>
-            <!--/Section: On-Campus -->
-
-            <div class="divider-new">
-                <h2 class="h2-responsive">About</h2>
-            </div>
-
-            <!--Section: About -->
-            <section id="card-section about">
-
-                <div class="row">
-
-                    <!--First columnn-->
-                    <div class="col-md-3">
-                        <!--Card-->
-                        <div class="card hoverable">
-
-                            <!--Card image-->
-                            <div class="view overlay hm-white-slight">
-                                <img src="http://mdbootstrap.com/images/regular/city/img%20(2).jpg" class="img-fluid" alt="">
-                                <a>
-                                    <div class="mask"></div>
-                                </a>
-                            </div>
-                            <!--/.Card image-->
-
-                            <!--Card content-->
-                            <div class="card-block text-xs-center">
-                                <!--Title-->
-                                <h4 class="card-title">Card title</h4>
-                                <hr>
-                                <!--Text-->
-                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident fuga animi architecto dolores dicta cum quo velit.</p>
-                            </div>
-                            <!--/.Card content-->
-
-                        </div>
-                        <!--/.Card-->
-                    </div>
-                    <!--First columnn-->
-
-                    <!--Second columnn-->
-                    <div class="col-md-3">
-                        <!--Card-->
-                        <div class="card hoverable">
-
-                            <!--Card image-->
-                            <div class="view overlay hm-white-slight">
-                                <img src="http://mdbootstrap.com/images/regular/city/img%20(3).jpg" class="img-fluid" alt="">
-                                <a>
-                                    <div class="mask"></div>
-                                </a>
-                            </div>
-                            <!--/.Card image-->
-
-                            <!--Card content-->
-                            <div class="card-block text-xs-center">
-                                <!--Title-->
-                                <h4 class="card-title">Card title</h4>
-                                <hr>
-                                <!--Text-->
-                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident fuga animi architecto dolores dicta cum quo velit.</p>
-                            </div>
-                            <!--/.Card content-->
-
-                        </div>
-                        <!--/.Card-->
-                    </div>
-                    <!--Second columnn-->
-
-                    <!--Third columnn-->
-                    <div class="col-md-3">
-                        <!--Card-->
-                        <div class="card hoverable">
-
-                            <!--Card image-->
-                            <div class="view overlay hm-white-slight">
-                                <img src="http://mdbootstrap.com/images/regular/city/img%20(4).jpg" class="img-fluid" alt="">
-                                <a>
-                                    <div class="mask"></div>
-                                </a>
-                            </div>
-                            <!--/.Card image-->
-
-                            <!--Card content-->
-                            <div class="card-block text-xs-center">
-                                <!--Title-->
-                                <h4 class="card-title">Card title</h4>
-                                <hr>
-                                <!--Text-->
-                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident fuga animi architecto dolores dicta cum quo velit.</p>
-                            </div>
-                            <!--/.Card content-->
-
-                        </div>
-                        <!--/.Card-->
-                    </div>
-                    <!--Third columnn-->
-
-                    <!--Fourth columnn-->
-                    <div class="col-md-3">
-                        <!--Card-->
-                        <div class="card hoverable">
-
-                            <!--Card image-->
-                            <div class="view overlay hm-white-slight">
-                                <img src="http://mdbootstrap.com/images/regular/city/img%20(8).jpg" class="img-fluid" alt="">
-                                <a>
-                                    <div class="mask"></div>
-                                </a>
-                            </div>
-                            <!--/.Card image-->
-
-                            <!--Card content-->
-                            <div class="card-block text-xs-center">
-                                <!--Title-->
-                                <h4 class="card-title">Card title</h4>
-                                <hr>
-                                <!--Text-->
-                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident fuga animi architecto dolores dicta cum quo velit.</p>
-                            </div>
-                            <!--/.Card content-->
-
-                        </div>
-                        <!--/.Card-->
-                    </div>
-                    <!--Fourth columnn-->
-                </div>
-                <div class = "flex-center">
-                    <a target="_blank" href="http://mdbootstrap.com/getting-started/" class="btn btn-primary btn-lg">View More!</a>
-                </div>
-
-            </section>
-            <!--/Section: About -->
+        <div class = "flex-center">
+          <a target="_blank" href="http://mdbootstrap.com/getting-started/" class="btn btn-primary btn-lg">View More!</a>
         </div>
 
-        <footer class="page-footer primary-color-dark center-on-small-only">
+    </section>
+    <!--/Section: In-Seattle-->
 
-            <!--Footer Links-->
-            <div class="container-fluid">
-                <div class="row">
+    <div class="divider-new" id="on-campus">
+        <h2 class="h2-responsive">On Campus</h2>
+    </div>
 
-                    <!--First column-->
-                    <div class="col-md-6">
-                        <h5 class="title">Footer Content</h5>
-                        <p>Here you can use rows and columns here to organize your footer content.</p>
+    <!--Section: On-Campus -->
+    <section id="Campus-card-section">
+
+        <div class="row wow fadeInLeft" data-wow-offset="5">
+
+            <!--First columnn-->
+            <div class="col-md-3">
+                <!--Card-->
+                <div class="card hoverable">
+
+                    <!--Card image-->
+                    <div class="view overlay hm-white-slight">
+                        <img src="http://mdbootstrap.com/images/regular/city/img%20(2).jpg" class="img-fluid" alt="">
+                        <a>
+                            <div class="mask"></div>
+                        </a>
                     </div>
-                    <!--/.First column-->
+                    <!--/.Card image-->
 
-                    <!--Second column-->
-                    <div class="col-md-6">
-                        <h5 class="title">Links</h5>
-                        <ul>
-                            <li><a href="#!">Link 1</a></li>
-                            <li><a href="#!">Link 2</a></li>
-                            <li><a href="#!">Link 3</a></li>
-                            <li><a href="#!">Link 4</a></li>
-                        </ul>
+                    <!--Card content-->
+                    <div class="card-block text-xs-center">
+                        <!--Title-->
+                        <h4 class="card-title">Tiffany Loop</h4>
+                        <hr>
+                        <!--Text-->
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident fuga animi architecto dolores dicta cum quo velit.</p>
                     </div>
-                    <!--/.Second column-->
-                </div>
-            </div>
-            <!--/.Footer Links-->
-
-            <!--Copyright-->
-            <div class="footer-copyright">
-                <div class="container-fluid">
-                    © 2015 Copyright: <a href="http://www.MDBootstrap.com"> MDBootstrap.com </a>
+                    <!--/.Card content-->
 
                 </div>
+                <!--/.Card-->
             </div>
-            <!--/.Copyright-->
+            <!--First columnn-->
 
-        </footer>
-        <!--/.Footer-->
-        <!--/ Main container-->
+            <!--Second columnn-->
+            <div class="col-md-3">
+                <!--Card-->
+                <div class="card hoverable">
 
-        <main>
-        </main>
+                    <!--Card image-->
+                    <div class="view overlay hm-white-slight">
+                        <img src="martinsquare.jpg" class="img-fluid" alt="">
+                        <a>
+                            <div class="mask"></div>
+                        </a>
+                    </div>
+                    <!--/.Card image-->
 
-        <footer>
-        </footer>
+                    <!--Card content-->
+                    <div class="card-block text-xs-center">
+                        <!--Title-->
+                        <h4 class="card-title">Martin Square</h4>
+                        <hr>
+                        <!--Text-->
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident fuga animi architecto dolores dicta cum quo velit.</p>
+                    </div>
+                    <!--/.Card content-->
+
+                </div>
+                <!--/.Card-->
+            </div>
+            <!--Second columnn-->
+
+            <!--Third columnn-->
+            <div class="col-md-3">
+                <!--Card-->
+                <div class="card hoverable">
+
+                    <!--Card image-->
+                    <div class="view overlay hm-white-slight">
+                        <img src="http://mdbootstrap.com/images/regular/city/img%20(4).jpg" class="img-fluid" alt="">
+                        <a>
+                            <div class="mask"></div>
+                        </a>
+                    </div>
+                    <!--/.Card image-->
+
+                    <!--Card content-->
+                    <div class="card-block text-xs-center">
+                        <!--Title-->
+                        <h4 class="card-title">Clock Tower</h4>
+                        <hr>
+                        <!--Text-->
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident fuga animi architecto dolores dicta cum quo velit.</p>
+                    </div>
+                    <!--/.Card content-->
+
+                </div>
+                <!--/.Card-->
+            </div>
+            <!--Third columnn-->
+
+            <!--Fourth columnn-->
+            <div class="col-md-3">
+                <!--Card-->
+                <div class="card hoverable">
+
+                    <!--Card image-->
+                    <div class="view overlay hm-white-slight">
+                        <img src="http://mdbootstrap.com/images/regular/city/img%20(8).jpg" class="img-fluid" alt="">
+                        <a>
+                            <div class="mask"></div>
+                        </a>
+                    </div>
+                    <!--/.Card image-->
+
+                    <!--Card content-->
+                    <div class="card-block text-xs-center">
+                        <!--Title-->
+                        <h4 class="card-title">Weter Lounge</h4>
+                        <hr>
+                        <!--Text-->
+                        <p class="card-text">A lounge open to all students. Study, gather for group projects, or warm up by the fireplace. Now open 24 hours a day.</p>
+                    </div>
+                    <!--/.Card content-->
+
+                </div>
+                <!--/.Card-->
+            </div>
+            <!--Fourth columnn-->
+        </div>
+        <div class = "flex-center">
+          <a target="_blank" href="http://mdbootstrap.com/getting-started/" class="btn btn-primary btn-lg">View More!</a>
+        </div>
+
+    </section>
+    <!--/Section: On-Campus -->
+
+</div>
+
+<footer class="page-footer primary-color-dark center-on-small-only">
+
+<!--Footer Links-->
+<div class="container-fluid">
+    <div class="row">
+
+        <!--First column-->
+        <div class="col-md-6">
+            <h5 class="title">Footer Content</h5>
+            <p>Here you can use rows and columns here to organize your footer content.</p>
+        </div>
+        <!--/.First column-->
+
+        <!--Second column-->
+        <div class="col-md-6">
+            <h5 class="title">Links</h5>
+            <ul>
+                <li><a href="#!">Link 1</a></li>
+                <li><a href="#!">Link 2</a></li>
+                <li><a href="#!">Link 3</a></li>
+                <li><a href="#!">Link 4</a></li>
+            </ul>
+        </div>
+        <!--/.Second column-->
+    </div>
+</div>
+<!--/.Footer Links-->
+
+<!--Copyright-->
+<div class="footer-copyright">
+    <div class="container-fluid">
+        © 2015 Copyright: <a href="http://www.MDBootstrap.com"> MDBootstrap.com </a>
+
+    </div>
+</div>
+<!--/.Copyright-->
+
+</footer>
+<!--/.Footer-->
+<!--/ Main container-->
+
+    <main>
+    </main>
+
+    <footer>
+    </footer>
 
 
-        <!-- SCRIPTS -->
+    <!-- SCRIPTS -->
 
-        <!-- JQuery -->
-        <script type="text/javascript" src="js/jquery-2.2.3.min.js"></script>
+    <!-- JQuery -->
+    <script type="text/javascript" src="js/jquery-2.2.3.min.js"></script>
 
-        <!-- Bootstrap tooltips -->
-        <script type="text/javascript" src="js/tether.min.js"></script>
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript" src="js/tether.min.js"></script>
 
-        <!-- Bootstrap core JavaScript -->
-        <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
 
-        <!-- MDB core JavaScript -->
-        <script type="text/javascript" src="js/mdb.min.js"></script>
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript" src="js/mdb.min.js"></script>
 
-        <!-- Scroll down from nav bar buttons script -->
-        <script type="text/javascript" src="js/scrolltop.js"></script>
+    <!--Animations initialization-->
+    <script>
+      new WOW().init();
+    </script>
 
-    </body>
+
+</body>
 
 </html>
